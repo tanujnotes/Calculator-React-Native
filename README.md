@@ -1,4 +1,4 @@
-# Calculator-React-Naitve
+# Calculator-React-Native
 
 My first React Native app - a basic calculator app.
 
