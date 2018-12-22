@@ -1,4 +1,4 @@
-package com.calculator;
+package com.professionalbakait.calculator;
 
 import android.app.Application;
 

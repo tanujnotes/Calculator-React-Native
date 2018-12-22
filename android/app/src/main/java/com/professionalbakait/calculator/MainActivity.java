@@ -1,4 +1,4 @@
-package com.calculator;
+package com.professionalbakait.calculator;
 
 import com.facebook.react.ReactActivity;
 
