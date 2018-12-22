@@ -99,10 +99,12 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.result}>
-          <Text style={styles.resultText}>{this.state.resultText}</Text>
+          <Text ellipsizeMode='head' numberOfLines={1}
+          style={styles.resultText}>{this.state.resultText}</Text>
         </View>
         <View style={styles.calculation}>
-          <Text style={styles.calculationText}>{this.state.calculationText}</Text>
+          <Text ellipsizeMode='head' numberOfLines={2} 
+          style={styles.calculationText}>{this.state.calculationText}</Text>
         </View>
         <View style={styles.buttons}>
           <View style={styles.numbers}>{rows}</View>
